@@ -44,6 +44,7 @@ export default defineConfig({
         text: 'Progression',
         items: [
           { text: 'Leveling', link: '/progression/leveling' },
+          { text: 'XP Table', link: '/progression/xp-table' },
           { text: 'Prestige', link: '/progression/prestige' },
           { text: 'Titles', link: '/progression/titles' },
         ]
