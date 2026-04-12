@@ -43,6 +43,7 @@ The site is deployed to Netlify. Build settings:
 
 ## Project Structure
 
+```plaintext
 zulkirbot-docs/
 ├── docs/
 │   ├── .vitepress/
@@ -61,6 +62,7 @@ zulkirbot-docs/
 │   └── index.md             # Home page
 ├── netlify.toml
 └── package.json
+```
 
 ## Tech Stack
 
