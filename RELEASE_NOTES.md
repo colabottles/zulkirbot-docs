@@ -2,6 +2,97 @@
 
 ---
 
+## Campaigns
+
+The Shadowdale Gauntlet is a channel-wide event — five stages of escalating combat ending in a named boss from D&D and Forgotten Realms lore. One campaign can be run per day. Win or lose, the cooldown is spent.
+
+## Starting a Campaign
+
+Type `!campaign` to begin. You will be prompted to choose a mode.
+
+```plaintext
+!campaign    → initiates the campaign, prompts for solo or party
+!solo        → start immediately as a solo adventurer
+!joincamp    → join a party forming window (party mode only)
+```
+
+After typing `!campaign`, you have **30 seconds** to respond with `!solo` or `!joincamp`. If no response is given, the campaign starts in solo mode automatically.
+
+## Solo vs. Party
+
+**Solo** — the campaign begins immediately with just you. All rewards go to you if you survive.
+
+**Party** — a 60-second join window opens. Any viewer can type `!joincamp` to enter. Once the window closes, the campaign begins with everyone who joined. There is no minimum or maximum party size beyond the initiator.
+
+## The Five Stages
+
+Rest shrines appear before stages 2 through 5, restoring **20 HP** to all living players before the next fight begins.
+
+| Stage | Name | Notes |
+| --- | --- | --- |
+| 1 | Skirmish | One or two weak enemies. Intro flavor text. |
+| 2 | Ambush | Two enemies. Dual attacks. |
+| 3 | Patrol | Tougher single enemy with a named special ability. |
+| 4 | Elite Guard | Near-boss tier. Uses a power move or debuff at round 2. |
+| 5 | Minor Boss | Named villain. High HP. Named special attack. Unique loot. |
+
+## Combat
+
+Combat is round-based. Each living player attacks in turn, then enemies counter. Special abilities and boss attacks fire at round 2. A maximum of 8 rounds per stage prevents stalling — any enemy still standing after round 8 is routed.
+
+## Death
+
+Death is **permanent for the duration of the campaign.** If your HP reaches 0 during any stage, you are eliminated. You cannot rejoin.
+
+- **Solo:** one death ends the campaign immediately.
+- **Party:** surviving members continue. The campaign only ends in defeat when all players are dead.
+
+If the campaign ends in defeat, the daily cooldown is still consumed. The channel cannot run another campaign until the next day.
+
+## Boss Pool
+
+The boss is drawn randomly at campaign start from a pool of 18 named villains rooted in D&D and Forgotten Realms lore, including servants of Szass Tam, Bane, Cyric, Shar, and Velsharoon among others. Each boss has a unique named special attack and intro flavor text.
+
+## Rewards
+
+Rewards are calculated per player based on how far they survived.
+
+| Reward | Who receives it |
+| --- | --- |
+| XP (50–300, scaling per stage) | All players, for stages survived |
+| Gold (20–120, scaling per stage) | All players, for stages survived |
+| Full clear bonus (+250 XP, +100 gold) | Survivors of all 5 stages only |
+| Unique title | All survivors of the full clear |
+| Minor artifact | One random survivor of the boss fight |
+
+### Stage XP and Gold
+
+| Stage | XP | Gold |
+| --- | --- | --- |
+| 1 | 50 | 20 |
+| 2 | 100 | 40 |
+| 3 | 150 | 60 |
+| 4 | 200 | 80 |
+| 5 (Boss) | 300 | 120 |
+| Full clear bonus | +250 | +100 |
+| **Total (full clear)** | **1,050** | **320** |
+
+### Titles
+
+Titles are drawn randomly from a pool of 10 on full clear. Examples include *Gauntlet Breaker*, *Crypt Clearer*, *The Undying*, and *Bane's Bane*.
+
+### Artifacts
+
+One minor artifact drops from the boss and is awarded to a random surviving player. Artifacts are drawn from a pool of 12, including items such as the *Shard of the Pale Crown*, *Veilborn Amulet*, and *Revenant's Brand*.
+
+## Cooldown
+
+One campaign per channel per day. The cooldown is enforced regardless of outcome.
+
+::: warning Permadeath
+If you die during a campaign, you are out for the rest of that run. There is no revival. Use `!rest` between normal sessions to keep your HP healthy before a campaign begins.
+:::
+
 ## v1.4.1 — April 13, 2026
 
 ### Improvements v1.4.1
