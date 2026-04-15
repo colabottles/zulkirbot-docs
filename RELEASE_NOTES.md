@@ -2,6 +2,8 @@
 
 ---
 
+## v1.4.2 — April 14, 2026
+
 ## Campaigns
 
 The Shadowdale Gauntlet is a channel-wide event — five stages of escalating combat ending in a named boss from D&D and Forgotten Realms lore. One campaign can be run per day. Win or lose, the cooldown is spent.
