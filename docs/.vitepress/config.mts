@@ -58,6 +58,19 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Campaigns',
+        items: [
+          { text: 'The Gauntlet', link: '/campaigns/gauntlet' },
+          { text: 'The Crystal of Rafiel', link: '/campaigns/mystara' },
+        ]
+      },
+      {
+        text: 'NPCs',
+        items: [
+          { text: 'Brother Yvannis', link: '/npcs/yvannis' },
+        ]
+      },
+      {
         text: 'Giveaways',
         items: [
           { text: 'Giveaways', link: '/giveaways' },
