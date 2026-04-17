@@ -62,6 +62,7 @@ export default defineConfig({
         items: [
           { text: 'The Gauntlet', link: '/campaigns/gauntlet' },
           { text: 'The Crystal of Rafiel', link: '/campaigns/mystara' },
+          { text: 'The Seal of the Incomparable', link: '/campaigns/alqadim' },
         ]
       },
       {

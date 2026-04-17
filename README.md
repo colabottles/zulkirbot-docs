@@ -52,8 +52,10 @@ zulkirbot-docs/
 │   │       ├── index.ts     # Theme entry point
 │   │       ├── custom.css   # Brand colors, fonts, overrides
 │   │       └── custom.d.ts  # CSS module type declaration
+│   ├── campaigns/
 │   ├── combat/
 │   ├── items/
+│   ├── npcs/
 │   ├── tavern/
 │   ├── progression/
 │   ├── social/

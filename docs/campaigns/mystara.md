@@ -2,7 +2,7 @@
 
 **Command:** `!campaign mystara`
 **Setting:**  Mystara / Hollow World
-**Unlock requirement:** 1 standard campaign clear
+**Unlock requirement:** 10 standard campaign clears
 **Difficulty:** Higher than the standard gauntlet
 **Cooldown:** Shares the channel daily cooldown
 
@@ -44,17 +44,8 @@ After the Echo of Atzanteotl is defeated, the campaign does not end immediately.
 
 Type the number of your choice during the vote window.
 
-## Let It Spread — Shadow Marked (Hidden)
-
-**Known:** Rewards are reduced by 50%. A channel-wide +25% HP and damage buff applies to all future campaign enemies.
-**Hidden:** A Shadow Elf assassin begins tracking every participant. After 5–7 campaigns, the assassin strikes at the start of a session when you use any command. Permanent character death. No combat. No warning.
-
-## Rewards
-
-## Titles
-
 Some titles are locked to specific vote outcomes.
 
 ::: danger Permadeath
-Death during a named campaign is permanent. If your HP reaches 0 at any stage you are eliminated for the rest of that run. Consequence deaths (assassin, crystal consumption) are also permanent. Use !rest between campaigns to keep your HP healthy going in.
+Death during a named campaign is permanent. If your HP reaches 0 at any stage you are eliminated for the rest of that run. Use `!rest` between campaigns to keep your HP healthy going in.
 :::
