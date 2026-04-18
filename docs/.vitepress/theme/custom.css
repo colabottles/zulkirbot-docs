@@ -100,6 +100,6 @@ h4 {
 }
 
 .vp-doc :not(pre)>code {
-  color: #e0000b;
+  color: #e0000b !important;
   margin: 0 3px;
 }
