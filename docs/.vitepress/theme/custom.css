@@ -31,6 +31,7 @@ html {
   --vp-c-text-1: #f0f0f0;
   --vp-c-text-2: #cccccc;
   --vp-c-text-3: #aaaaaa;
+  --vp-code-color: #e0000b;
 }
 
 .VPHero .name,
