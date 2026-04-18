@@ -31,7 +31,6 @@ html {
   --vp-c-text-1: #f0f0f0;
   --vp-c-text-2: #cccccc;
   --vp-c-text-3: #aaaaaa;
-  --vp-code-color: #e0000b;
 }
 
 .VPHero .name,
@@ -98,4 +97,9 @@ h4 {
 
 .dark .VPFeature .details {
   color: #cccccc !important;
+}
+
+.vp-doc :not(pre)>code {
+  color: #e0000b;
+  margin: 0 3px;
 }
