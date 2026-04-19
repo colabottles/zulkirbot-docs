@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Grenze:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 html {
-  font-size: clamp(1.5rem, 1.2vw, 1.5rem);
+  font-size: clamp(1rem, 1.2vw, 1.25rem);
 }
 
 :root {
@@ -79,6 +79,10 @@ h4 {
   font-size: clamp(1rem, 1.1vw, 1.3rem);
 }
 
+.vp-doc p {
+  font-size: 1.3rem;
+}
+
 .dark .VPNavBarMenuLink {
   color: #f0f0f0 !important;
 }
@@ -115,7 +119,7 @@ h4 {
 
 /* Inline code — dark mode */
 .dark .vp-doc :not(pre)>code {
-  color: #ff6b6b !important;
+  color: var(--vp-c-brand-2);
   background-color: #2a1a1a;
 }
 
