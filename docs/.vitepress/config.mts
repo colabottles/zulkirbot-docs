@@ -74,6 +74,8 @@ export default defineConfig({
           { text: 'The Shattered Memory of Darkon', link: '/campaigns/ravenloft' },
           { text: 'Ashes Beneath the Flame', link: '/campaigns/eberron' },
           { text: 'Ashes of the Black Emperor', link: '/campaigns/dragonlance' },
+          { text: 'The Smiling Tyrant', link: '/campaigns/greyhawk' },
+          { text: 'The Tyrant Reforged', link: '/campaigns/forgotten-realms' },
         ]
       },
       {
