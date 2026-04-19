@@ -272,7 +272,7 @@ h4 {
 .VPNavBarTitle .title {
   font-size: clamp(1.4rem, 1.6vw, 1.4rem) !important;
   font-family: 'Cinzel Decorative', serif;
-  color: #b5e890;
+  color: #b5e890 !important;
   letter-spacing: 0.05em;
 }
 
