@@ -267,3 +267,14 @@ h4 {
   border-color: #ff8a8a;
   background-color: #1f1212;
 }
+
+/* ── Navbar site title ───────────────────────────────────────── */
+.VPNavBarTitle .title {
+  font-size: clamp(1.1rem, 1.4vw, 1.5rem) !important;
+  font-family: 'Cinzel Decorative', serif;
+  letter-spacing: 0.05em;
+}
+
+.dark .VPNavBarTitle .title {
+  color: #f0f0f0;
+}
