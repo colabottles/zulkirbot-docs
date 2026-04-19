@@ -231,3 +231,38 @@ h4 {
 .dark .VPDocAsideOutline a.active {
   color: #ff8a8a;
 }
+
+/* ── Prev/Next page navigation ───────────────────────────────── */
+.VPDocFooter .pager-link .title {
+  font-size: 1rem;
+}
+
+.VPDocFooter .pager-link .desc {
+  font-size: 0.85rem;
+}
+
+.dark .VPDocFooter .pager-link .title {
+  color: #ff8a8a;
+}
+
+.dark .VPDocFooter .pager-link:hover .title {
+  color: #ffb3b3;
+}
+
+.dark .VPDocFooter .pager-link .desc {
+  color: #cccccc;
+}
+
+.dark .VPDocFooter {
+  border-top: 1px solid #333333;
+}
+
+.dark .VPDocFooter .pager-link {
+  border: 1px solid #333333;
+  background-color: #1a1a1a;
+}
+
+.dark .VPDocFooter .pager-link:hover {
+  border-color: #ff8a8a;
+  background-color: #1f1212;
+}
