@@ -63,6 +63,9 @@ export default defineConfig({
           { text: 'The Gauntlet', link: '/campaigns/gauntlet' },
           { text: 'The Crystal of Rafiel', link: '/campaigns/mystara' },
           { text: 'The Seal of the Incomparable', link: '/campaigns/alqadim' },
+          { text: 'Ashes of Xaryxis', link: '/campaigns/spelljammer' },
+          { text: 'Embers of the Second War', link: '/campaigns/planescape' },
+          { text: 'The Shattered Memory of Darkon', link: '/campaigns/ravenloft' },
         ]
       },
       {
