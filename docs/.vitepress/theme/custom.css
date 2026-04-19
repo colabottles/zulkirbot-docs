@@ -108,7 +108,7 @@ h4 {
 }
 
 /* ── Code blocks — dark mode contrast (WCAG AA) ─────────────── */
-.dark .vp-code-group .tabs,
+/* .dark .vp-code-group .tabs,
 .dark div[class*='language-'] {
   background-color: #1a1a1a;
 }
@@ -118,19 +118,19 @@ h4 {
 }
 
 /* Inline code — dark mode */
-.dark .vp-doc :not(pre)>code {
+/*.dark .vp-doc :not(pre)>code {
   color: var(--vp-c-brand-2);
   background-color: #2a1a1a;
 }
 
 /* Syntax token colors — dark mode */
-.dark .shiki,
+/*.dark .shiki,
 .dark .shiki span {
   color: var(--shiki-dark, inherit) !important;
 }
 
 /* Token overrides for contrast */
-.dark .vp-doc pre code .line .token.comment,
+/*.dark .vp-doc pre code .line .token.comment,
 .dark .vp-doc pre code .line .token.prolog,
 .dark .vp-doc pre code .line .token.doctype,
 .dark .vp-doc pre code .line .token.cdata {
@@ -162,13 +162,13 @@ h4 {
 }
 
 /* Line numbers if enabled */
-.dark div[class*='language-'].line-numbers-mode .line-numbers {
+/*.dark div[class*='language-'].line-numbers-mode .line-numbers {
   color: #666666;
   border-right: 1px solid #333333;
 }
 
 /* Code block copy button */
-.dark div[class*='language-']>button.copy {
+/*.dark div[class*='language-']>button.copy {
   color: #aaaaaa;
 }
 
