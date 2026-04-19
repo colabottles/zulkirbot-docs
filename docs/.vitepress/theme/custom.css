@@ -4,7 +4,7 @@ html {
   font-size: clamp(1rem, 1.2vw, 1.25rem);
 }
 
-:root {
+/* :root {
   --vp-c-brand-1: #c0000a;
   --vp-c-brand-2: #e0000c;
   --vp-c-brand-3: #7B0005;
@@ -174,4 +174,4 @@ h4 {
 
 .dark div[class*='language-']>button.copy:hover {
   color: #e8e8e8;
-}
+} */
