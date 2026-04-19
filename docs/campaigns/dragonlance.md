@@ -1,6 +1,6 @@
-# Ashes of the Black Emperor
+# The Black Emperor
 
-**Command:** `!namedcampaign ashes-of-the-black-emperor`
+**Command:** `!namedcampaign the-black-emperor`
 **Setting:** Dragonlance / Krynn
 **Unlock requirement:** 5 standard campaign clears
 **Difficulty:** Higher than the standard gauntlet

@@ -1,6 +1,6 @@
-# Ashes Beneath the Flame
+# The Whispering Flame
 
-**Command:** `!namedcampaign ashes-beneath-the-flame`
+**Command:** `!namedcampaign the-whispering-flame`
 **Setting:** Eberron / Thrane
 **Unlock requirement:** 3 standard campaign clears
 **Difficulty:** Higher than the standard gauntlet

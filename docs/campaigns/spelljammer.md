@@ -1,6 +1,6 @@
-# Ashes of Xaryxis
+# The Dying Star
 
-**Command:** `!namedcampaign ashes-of-xaryxis`
+**Command:** `!namedcampaign the-dying-star`
 **Setting:** Spelljammer / Wildspace
 **Unlock requirement:** 3 standard campaign clears
 **Difficulty:** Higher than the standard gauntlet
