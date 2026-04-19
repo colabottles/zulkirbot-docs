@@ -270,8 +270,9 @@ h4 {
 
 /* ── Navbar site title ───────────────────────────────────────── */
 .VPNavBarTitle .title {
-  font-size: clamp(1.6rem, 1.8vw, 1.6rem) !important;
+  font-size: clamp(1.4rem, 1.6vw, 1.4rem) !important;
   font-family: 'Cinzel Decorative', serif;
+  color: #b5e890;
   letter-spacing: 0.05em;
 }
 
