@@ -100,6 +100,74 @@ h4 {
 }
 
 .vp-doc :not(pre)>code {
-  color: #e0000b !important;
   margin: 0 3px;
+}
+
+/* ── Code blocks — dark mode contrast (WCAG AA) ─────────────── */
+.dark .vp-code-group .tabs,
+.dark div[class*='language-'] {
+  background-color: #1a1a1a;
+}
+
+.dark div[class*='language-'] code {
+  color: #e8e8e8;
+}
+
+/* Inline code — dark mode */
+.dark .vp-doc :not(pre)>code {
+  color: #ff6b6b !important;
+  background-color: #2a1a1a;
+}
+
+/* Syntax token colors — dark mode */
+.dark .shiki,
+.dark .shiki span {
+  color: var(--shiki-dark, inherit) !important;
+}
+
+/* Token overrides for contrast */
+.dark .vp-doc pre code .line .token.comment,
+.dark .vp-doc pre code .line .token.prolog,
+.dark .vp-doc pre code .line .token.doctype,
+.dark .vp-doc pre code .line .token.cdata {
+  color: #a0a0a0;
+}
+
+.dark .vp-doc pre code .line .token.string,
+.dark .vp-doc pre code .line .token.attr-value {
+  color: #b5e890;
+}
+
+.dark .vp-doc pre code .line .token.keyword,
+.dark .vp-doc pre code .line .token.operator {
+  color: #ff9d6c;
+}
+
+.dark .vp-doc pre code .line .token.function,
+.dark .vp-doc pre code .line .token.class-name {
+  color: #79d4f7;
+}
+
+.dark .vp-doc pre code .line .token.number,
+.dark .vp-doc pre code .line .token.boolean {
+  color: #f0c674;
+}
+
+.dark .vp-doc pre code .line .token.punctuation {
+  color: #cccccc;
+}
+
+/* Line numbers if enabled */
+.dark div[class*='language-'].line-numbers-mode .line-numbers {
+  color: #666666;
+  border-right: 1px solid #333333;
+}
+
+/* Code block copy button */
+.dark div[class*='language-']>button.copy {
+  color: #aaaaaa;
+}
+
+.dark div[class*='language-']>button.copy:hover {
+  color: #e8e8e8;
 }

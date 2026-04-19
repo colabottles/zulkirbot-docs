@@ -3,11 +3,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ZulkirBot",
   description: "Text-based RPG for Twitch chat on zulkirjax",
+  markdown: {
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark-high-contrast',
+    }
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Commands', link: '/getting-started' },
-      { text: 'Watch on Twitch', link: 'https://twitch.tv/zulkirjax' }
+      { text: 'Watch on Twitch', link: 'https://twitch.tv/zulkirjax' },
     ],
     sidebar: [
       {
