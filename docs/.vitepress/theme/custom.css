@@ -79,10 +79,6 @@ h4 {
   font-size: clamp(1rem, 1.1vw, 1.3rem);
 }
 
-.vp-doc p {
-  font-size: 1.3rem;
-}
-
 .dark .VPNavBarMenuLink {
   color: #f0f0f0 !important;
 }
@@ -103,10 +99,6 @@ h4 {
   color: #cccccc !important;
 }
 
-.vp-doc :not(pre)>code {
-  margin: 0 3px;
-}
-
 /* ── Code blocks — dark mode contrast (WCAG AA) ─────────────── */
 .dark .vp-code-group .tabs,
 .dark div[class*='language-'] {
@@ -115,12 +107,6 @@ h4 {
 
 .dark div[class*='language-'] code {
   color: #e8e8e8;
-}
-
-/* Inline code — dark mode */
-.dark .vp-doc :not(pre)>code {
-  color: var(--vp-c-brand-2);
-  background-color: #2a1a1a;
 }
 
 /* Syntax token colors — dark mode */
