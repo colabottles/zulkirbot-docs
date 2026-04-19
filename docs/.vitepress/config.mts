@@ -72,6 +72,8 @@ export default defineConfig({
           { text: 'Ashes of Xaryxis', link: '/campaigns/spelljammer' },
           { text: 'Embers of the Second War', link: '/campaigns/planescape' },
           { text: 'The Shattered Memory of Darkon', link: '/campaigns/ravenloft' },
+          { text: 'Ashes Beneath the Flame', link: '/campaigns/eberron' },
+          { text: 'Ashes of the Black Emperor', link: '/campaigns/dragonlance' },
         ]
       },
       {
