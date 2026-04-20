@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-
 export default defineConfig({
   title: "ZulkirBot",
   description: "Text-based RPG for Twitch chat on zulkirjax",
@@ -28,6 +27,8 @@ export default defineConfig({
         items: [
           { text: 'Fighting', link: '/combat/fighting' },
           { text: 'PvP Dueling', link: '/combat/dueling' },
+          { text: 'Rogue Skills', link: '/combat/rogue-skills' },
+          { text: 'Spells', link: '/combat/spells' },
         ]
       },
       {
@@ -44,6 +45,7 @@ export default defineConfig({
         items: [
           { text: 'Tavern', link: '/tavern/tavern' },
           { text: 'Tavern Brawl', link: '/tavern/brawl' },
+          { text: 'Hirelings', link: '/tavern/hirelings' },
         ]
       },
       {
