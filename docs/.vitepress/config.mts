@@ -79,6 +79,7 @@ export default defineConfig({
           { text: 'The Black Emperor', link: '/campaigns/dragonlance' },
           { text: 'The Smiling Tyrant', link: '/campaigns/greyhawk' },
           { text: 'The Tyrant Reforged', link: '/campaigns/forgotten-realms' },
+          { text: 'The Lich King of Thay', link: '/campaigns/thay' },
         ]
       },
       {
