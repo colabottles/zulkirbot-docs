@@ -80,6 +80,16 @@ export default defineConfig({
           { text: 'The Smiling Tyrant', link: '/campaigns/greyhawk' },
           { text: 'The Tyrant Reforged', link: '/campaigns/forgotten-realms' },
           { text: 'The Lich King of Thay', link: '/campaigns/thay' },
+          {
+            text: 'Greyhawk Arc',
+            items: [
+              { text: 'The Village of Hommlet', link: '/campaigns/greyhawk-arc/hommlet' },
+              { text: 'The Temple of Elemental Evil', link: '/campaigns/greyhawk-arc/temple' },
+              { text: 'Scourge of the Slave Lords', link: '/campaigns/greyhawk-arc/slavers' },
+              { text: 'Against the Giants', link: '/campaigns/greyhawk-arc/giants' },
+              { text: 'Queen of the Spiders', link: '/campaigns/greyhawk-arc/spiders' },
+            ]
+          },
         ]
       },
       {
