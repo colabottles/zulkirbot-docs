@@ -11,10 +11,10 @@ The timer starts with the first entry and runs for **5 minutes**. You will be no
 
 Make sure you follow and whisper to ZulkirBot in order to get the code!
 
-> [!TIP]
-> Make sure your Twitch whispers are open — the winner receives their prize code via whisper from ZulkirBot!
+::: tip
+Make sure your Twitch whispers are open — the winner receives their prize code via whisper from ZulkirBot!
+:::
 
-and...
-
->[!WARNING]
-> All game commands are paused during an active giveaway and resume automatically when it ends.
+::: warning
+All game commands are paused during an active giveaway and resume automatically when it ends.
+:::
