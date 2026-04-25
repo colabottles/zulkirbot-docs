@@ -46,7 +46,7 @@ The maximum level is **40**. XP required to reach each level:
 | 40 | 9,400,000 |
 
 ::: tip
-Reach Level 40 with 1,000g to unlock **!prestige** and ascend to Epic rank.
+ℹ️ Reach Level 40 with 1,000g to unlock **!prestige** and ascend to Epic rank.
 :::
 
 >[!NOTE]

@@ -92,9 +92,9 @@ Wild Mages have a 10% chance on every cast to trigger a Wild Magic Surge — a r
 Scrolls can be found during `!explore` in treasure chests and rogue skill events. Rarity maps to spell level — common scrolls contain level 1–3 spells, uncommon scrolls 4–6, rare scrolls 7–9. Use `!scribescroll` to add the spell to your spellbook.
 
 ::: danger Permadeath
-Spell points are lost on character death along with everything else. Your spellbook does not survive permadeath.
+⛔ Spell points are lost on character death along with everything else. Your spellbook does not survive permadeath.
 :::
 
 ::: tip
-`!cast` works as a standalone command during a fight — you do not need to use `!attack` first. The monster will attack back after your cast just as it would on a normal attack turn.
+ℹ️ `!cast` works as a standalone command during a fight — you do not need to use `!attack` first. The monster will attack back after your cast just as it would on a normal attack turn.
 :::

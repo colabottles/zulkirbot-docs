@@ -44,9 +44,9 @@ A unique artifact drops to a random survivor on full clear. It is the kind of ob
 Completing Scourge of the Slave Lords unlocks **Against the Giants** — the fourth campaign in the Greyhawk Arc. Use `!campaign against-the-giants` to begin.
 
 ::: tip
-The Pomarj is not hospitable. The Slave Lords are not surprised to see adventurers. They have contingencies. Come prepared for a fight that knows you are coming.
+ℹ️ The Pomarj is not hospitable. The Slave Lords are not surprised to see adventurers. They have contingencies. Come prepared for a fight that knows you are coming.
 :::
 
 ::: warning
-Something the party finds in the warrens connects to a name in Greyhawk City. The implications of what happens in the Aerie extend beyond the Pomarj. The consequences follow.
+⚠️ Something the party finds in the warrens connects to a name in Greyhawk City. The implications of what happens in the Aerie extend beyond the Pomarj. The consequences follow.
 :::

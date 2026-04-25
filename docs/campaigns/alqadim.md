@@ -78,7 +78,7 @@ Each choice carries consequences. Some are known immediately. Some are not.
 | The Seal of the Incomparable (artifact) | One random survivor of the boss fight |
 
 ::: danger Permadeath
-Death during a named campaign is permanent. If your HP reaches 0 at any stage you are
+⛔ Death during a named campaign is permanent. If your HP reaches 0 at any stage you are
 eliminated for the rest of that run. Use `!rest` between campaigns to keep your HP
 healthy going in.
 :::

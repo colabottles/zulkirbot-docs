@@ -52,9 +52,9 @@ This title is awarded once and cannot be earned again.
 A unique artifact drops to a random survivor on full clear. It is something taken from the Demonweb itself. It does not age. It does not decay. It holds tension that has nothing to do with its physical properties.
 
 ::: tip
-This is the hardest campaign in the Greyhawk Arc. Difficulty is 1.50× — the same as The Lich King of Thay. The boss fight has mechanics that do not appear in any other campaign. Heal at every shrine. Enter stage 5 at full HP.
+ℹ️ This is the hardest campaign in the Greyhawk Arc. Difficulty is 1.50× — the same as The Lich King of Thay. The boss fight has mechanics that do not appear in any other campaign. Heal at every shrine. Enter stage 5 at full HP.
 :::
 
 ::: warning
-The Greyhawk Arc ends here. What the party chooses in the vote determines what they carry out of the Demonweb — and what follows them afterward. The consequences of this campaign are the heaviest in the arc.
+⚠️ The Greyhawk Arc ends here. What the party chooses in the vote determines what they carry out of the Demonweb — and what follows them afterward. The consequences of this campaign are the heaviest in the arc.
 :::

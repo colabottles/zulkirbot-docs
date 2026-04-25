@@ -41,9 +41,9 @@ All survivors of a full clear earn a unique title for having stood in the throne
 A unique artifact drops to a random survivor on full clear. Its flavor text tells you what it means that you have it.
 
 ::: tip
-Heal at every shrine. Come into stage 5 at full HP. You will need it.
+ℹ️ Heal at every shrine. Come into stage 5 at full HP. You will need it.
 :::
 
 ::: warning
-This campaign has the highest difficulty modifier in the game. Enemy HP and damage scale at 1.50×. Plan accordingly.
+⛔ This campaign has the highest difficulty modifier in the game. Enemy HP and damage scale at 1.50×. Plan accordingly.
 :::

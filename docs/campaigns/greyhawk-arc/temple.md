@@ -44,9 +44,9 @@ A unique artifact drops to a random survivor on full clear. The scholars in Grey
 Completing The Temple of Elemental Evil unlocks **Scourge of the Slave Lords** — the third campaign in the Greyhawk Arc. Use `!campaign scourge-of-the-slave-lords` to begin.
 
 ::: tip
-The Temple is harder than Hommlet. Come in at full HP. The rest shrines are real — use them.
+ℹ️ The Temple is harder than Hommlet. Come in at full HP. The rest shrines are real — use them.
 :::
 
 ::: warning
-Something in the Temple noticed the party when they entered. The consequences of what happens here follow players into every campaign that comes after it.
+⚠️ Something in the Temple noticed the party when they entered. The consequences of what happens here follow players into every campaign that comes after it.
 :::

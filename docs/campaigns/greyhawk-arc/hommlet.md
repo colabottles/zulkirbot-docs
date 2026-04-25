@@ -46,5 +46,5 @@ A unique artifact drops to a random survivor on full clear. It is the kind of ob
 Completing The Village of Hommlet unlocks **The Temple of Elemental Evil** — the second campaign in the Greyhawk Arc. Use `!campaign temple-of-elemental-evil` to begin.
 
 ::: tip
-The Greyhawk Arc is a five-campaign sequence. Each campaign is harder than the last. Consequences from Hommlet carry forward. The thread you pull here does not end here.
+ℹ️ The Greyhawk Arc is a five-campaign sequence. Each campaign is harder than the last. Consequences from Hommlet carry forward. The thread you pull here does not end here.
 :::

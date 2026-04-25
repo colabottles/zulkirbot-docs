@@ -51,5 +51,5 @@ Type the number of your choice during the vote window.
 Some titles are locked to specific vote outcomes.
 
 ::: danger Permadeath
-Death during a named campaign is permanent. If your HP reaches 0 at any stage you are eliminated for the rest of that run. Use `!rest` between campaigns to keep your HP healthy going in.
+⛔ Death during a named campaign is permanent. If your HP reaches 0 at any stage you are eliminated for the rest of that run. Use `!rest` between campaigns to keep your HP healthy going in.
 :::

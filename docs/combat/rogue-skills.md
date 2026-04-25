@@ -63,9 +63,9 @@ These events appear randomly during `!explore` alongside the existing trap and c
 | Trapped corridor | `!explore` roll | `!findtraps`, `!disabletrap` |
 
 ::: tip
-`!findtraps` and `!disabletrap` can both be used on the same event. Finding the trap first does not consume it — you can then disarm it with full knowledge of what you're dealing with.
+ ℹ️`!findtraps` and `!disabletrap` can both be used on the same event. Finding the trap first does not consume it — you can then disarm it with full knowledge of what you're dealing with.
 :::
 
 ::: warning
-You cannot use rogue skill commands while in a fight. Finish the fight first, then explore.
+⚠️ You cannot use rogue skill commands while in a fight. Finish the fight first, then explore.
 :::

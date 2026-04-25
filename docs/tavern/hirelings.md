@@ -39,9 +39,9 @@ Your hireling rests when you do. Each `!rest` or `!shrine` restores **1 HP** to 
 Every hireling has a unique name drawn from their archetype's roster. They announce their presence with a purchase message specific to their archetype and fire random quips during combat. When they die, their last words are suitably melodramatic.
 
 ::: tip
-Melee hirelings deal the most damage. Divine hirelings are the best choice for long dungeon runs thanks to the post-fight healing. Support hirelings are underrated — the attack bonus stacks with other buffs.
+ℹ️ Melee hirelings deal the most damage. Divine hirelings are the best choice for long dungeon runs thanks to the post-fight healing. Support hirelings are underrated — the attack bonus stacks with other buffs.
 :::
 
 ::: warning
-Your hireling does not survive a bot restart. They are stored in memory only and will be gone when the stream ends. Hire fresh at the start of each session.
+⚠️ Your hireling does not survive a bot restart. They are stored in memory only and will be gone when the stream ends. Hire fresh at the start of each session.
 :::

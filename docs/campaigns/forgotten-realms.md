@@ -51,13 +51,13 @@ Type the number of your choice during the vote window.
 Some titles are locked to specific vote outcomes.
 
 ::: danger Permadeath
-Death during a named campaign is permanent. If your HP reaches 0 at any stage you are eliminated for the rest of that run. Use `!rest` between campaigns to keep your HP healthy going in.
+⛔ Death during a named campaign is permanent. If your HP reaches 0 at any stage you are eliminated for the rest of that run. Use `!rest` between campaigns to keep your HP healthy going in.
 :::
 
 ::: warning Consequences
-Every ending writes a persistent consequence to your character that carries into future campaigns. The failure ending carries one of the heaviest tolls in the game. The ledger of Bane has a long memory — certain consequences will find you in future campaigns whether you expect them or not.
+⚠️ Every ending writes a persistent consequence to your character that carries into future campaigns. The failure ending carries one of the heaviest tolls in the game. The ledger of Bane has a long memory — certain consequences will find you in future campaigns whether you expect them or not.
 :::
 
 ::: tip
-The artifact from this campaign is heavier than it looks. What that means is for you to find out.
+ℹ️ The artifact from this campaign is heavier than it looks. What that means is for you to find out.
 :::

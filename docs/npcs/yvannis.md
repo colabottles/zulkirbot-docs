@@ -25,9 +25,9 @@ Costs are calculated as a percentage of your current gold balance, rounded down 
 Yvannis checks your condition before accepting payment. If your HP is already full, he will not charge you for Heal. If you have no active disease, he will not charge you for Cure Disease. If nothing ails you, he will say so and move on.
 
 ::: tip
-If you have the corruption_stabilized flag from the Mystara campaign, the Wish service is the only way to remove it. It costs 40% of your current gold — save up before seeking him out.
+ℹ️ If you have the corruption_stabilized flag from the Mystara campaign, the Wish service is the only way to remove it. It costs 40% of your current gold — save up before seeking him out.
 :::
 
 ::: warning
-Yvannis only appears once per campaign at a random stage. If you miss his window, you will not see him again until the next campaign.
+⚠️ Yvannis only appears once per campaign at a random stage. If you miss his window, you will not see him again until the next campaign.
 :::

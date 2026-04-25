@@ -21,4 +21,28 @@ List all available commands. `!help`
 
 ## Available Classes
 
-Alchemist · Artificer · Barbarian · Bard · Cleric · Druid · Favored Soul · Fighter · Monk · Paladin · Ranger · Rogue · Sorcerer · Warlock · Wizard · Sacred Fist · Dark Apostate · Stormsinger · Blightcaster · Acolyte of the Skin · Dark Hunter · Dragon Lord · Wild Mage · Dragon Disciple · Arcane Trickster
+- Alchemist
+- Artificer
+- Barbarian
+- Bard
+- Cleric
+- Druid
+- Favored Soul
+- Fighter
+- Monk
+- Paladin
+- Ranger
+- Rogue
+- Sorcerer
+- Warlock
+- Wizard
+- Sacred Fist
+- Dark Apostate
+- Stormsinger
+- Blightcaster
+- Acolyte of the Skin
+- Dark Hunter
+- Dragon Lord
+- Wild Mage
+- Dragon Disciple
+- Arcane Trickster

@@ -44,9 +44,9 @@ A unique artifact drops to a random survivor on full clear. It identifies the be
 Completing Against the Giants unlocks **Queen of the Spiders** — the fifth and final campaign in the Greyhawk Arc. Use `!campaign queen-of-the-spiders` to begin.
 
 ::: tip
-The giants are not the problem. The giants were never the problem. The problem is what sent them. Keep that in mind when the vote comes.
+ℹ️ The giants are not the problem. The giants were never the problem. The problem is what sent them. Keep that in mind when the vote comes.
 :::
 
 ::: warning
-This campaign ends in the Underdark. What the party chooses at the end determines whether they follow the thread deeper or bring what they found back to the surface. Both choices have consequences. Neither choice is clean.
+⚠️ This campaign ends in the Underdark. What the party chooses at the end determines whether they follow the thread deeper or bring what they found back to the surface. Both choices have consequences. Neither choice is clean.
 :::
