@@ -4,7 +4,7 @@
 
 Enter the active giveaway with the command `!ddo`. One entry per person.
 
-::: announcement
+::: warning
 ⚠️ Viewers must follow and whisper @ZulkirBot before the giveaway starts to be eligible for prize delivery. Due to Twitch's anti-spam rules, this is necessary to receive the codes you have won!
 :::
 
