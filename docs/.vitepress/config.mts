@@ -105,6 +105,12 @@ export default defineConfig({
           { text: 'Giveaways', link: '/giveaways' },
         ]
       },
+      {
+        text: 'Broadcaster',
+        items: [
+          { text: 'Broadcaster', link: '/broadcaster' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'twitch', link: 'https://twitch.tv/zulkirjax' }
