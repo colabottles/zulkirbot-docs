@@ -18,7 +18,7 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Introduction', link: '/' },
+          { text: 'Introduction', link: '/intro' },
           { text: 'Creating a Character', link: '/getting-started' },
         ]
       },
