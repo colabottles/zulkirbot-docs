@@ -49,6 +49,10 @@ The maximum level is **40**. XP required to reach each level:
 > [!TIP]
 > Reach Level 40 with 1,000g to unlock **!prestige** and ascend to Epic rank.
 >
+
+---
+
+>
 > [!NOTE]
 > The XP curve is inspired by the BECMI D&D ruleset — early levels come quickly, but the road to Level 40 is a long one.
 >
