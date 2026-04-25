@@ -26,13 +26,13 @@ Rest shrines appear before stages 2 through 5.
 
 Brother Yvannis appears at one random stage (2–4) alongside his shrine.
 
-| --- | --- | --- | --- |
 | Stage | Name | Enemy | Special |
-| 1 | The Descent| Shadow Elf | Border Wardens (x2) | None
-| 2 | The Broken Faith | Corrupted Shadow Elf Acolyte | Radiance Pulse — hits all party members
-| 3 | The Blackmoor Ruins | Blackmoor Construct| Null Field — suppresses one player's attack
-| 4 | The Rogue Priest | High Priest Sylvael | Fanatic's Brand — marks one player as sole target
-| 5 | The Chamber of the Spheres | The Echo of Atzanteotl | The Unmaking Verse — hits all party members for 35 damage
+| --- | --- | --- | --- |
+| 1 | The Descent | Shadow Elf Border Wardens (x2) | None |
+| 2 | The Broken Faith | Corrupted Shadow Elf Acolyte | Radiance Pulse — hits all party members |
+| 3 | The Blackmoor Ruins | Blackmoor Construct | Null Field — suppresses one player's attack |
+| 4 | The Rogue Priest | High Priest Sylvael | Fanatic's Brand — marks one player as sole target |
+| 5 | The Chamber of the Spheres | The Echo of Atzanteotl | The Unmaking Verse — hits all party members for 35 damage |
 
 ## The Ending Vote
 
