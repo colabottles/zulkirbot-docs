@@ -4,9 +4,30 @@ Rogues, Arcane Tricksters, Rangers, and Artificers have access to a set of skill
 
 ## How It Works
 
-When you use `!explore` and encounter a skill-based event, the bot will tell you what you found and which command to use. You have **3 minutes** to respond before the opportunity expires.
+Rogue skill commands now require sequential steps. You cannot skip ahead — each event has a required order that must be followed before the final action becomes available.
+
+When you use `!explore` and encounter a skill-based event, the bot will tell you what you found and which command to use next. You have **3 minutes** to complete the sequence before the opportunity expires.
 
 Each command has a success chance that varies by class. Ineligible classes can still attempt the commands but with a much lower success chance, and failure often has consequences.
+
+## Command Sequences
+
+### Trapped Chest or Trapped Corridor
+
+1. `!explore` detects the event and auto-senses something is wrong
+2. `!findtraps` — identify the trap
+3. `!disabletrap` — disarm it (only available after `!findtraps` succeeds)
+
+### Hidden Door or Suspicious Wall
+
+1. `!explore` detects the event
+2. `!searchdoor` — find the hidden passage
+3. `!opendoor` — open it (only available after `!searchdoor` succeeds)
+
+### Locked Chest
+
+1. `!explore` detects the locked chest
+2. `!picklock` — attempt to open it directly (no prior step required)
 
 ## Commands
 
@@ -18,21 +39,21 @@ Attempt to open a locked chest.
 
 On success, the chest opens and yields a rare or better item plus gold. On failure, a trapped mechanism may fire for damage, or the lock simply holds.
 
-### `!disabletrap`
-
-Disarm a trapped chest or trapped corridor before it fires.
-
-**Eligible classes:** Rogue, Arcane Trickster, Ranger
-
-On success, the trap is neutralized and you earn bonus XP. If the event was a trapped chest, the chest beneath it also opens for loot. On failure, the trap fires for damage.
-
 ### `!findtraps`
 
 Reveal hidden traps before committing to disarming them.
 
 **Eligible classes:** Rogue, Arcane Trickster, Artificer
 
-On success, the trap is revealed and identified, and you can follow up with `!disabletrap` with full information. On failure, nothing is revealed — but the trap is still there.
+Must be used before `!disabletrap`. On success, the trap is identified and `!disabletrap` becomes available. On failure, nothing is revealed — the trap is still there and the window remains open.
+
+### `!disabletrap`
+
+Disarm a trapped chest or trapped corridor.
+
+**Eligible classes:** Rogue, Arcane Trickster, Ranger
+
+Requires `!findtraps` to have succeeded first. On success, the trap is neutralized and you earn bonus XP. If the event was a trapped chest, the chest beneath it also opens for loot. On failure, the trap fires for damage.
 
 ### `!searchdoor`
 
@@ -40,30 +61,37 @@ Search a suspicious wall or unusual section of stonework for a hidden passage.
 
 **Eligible classes:** Rogue, Arcane Trickster, Ranger
 
-On success, a hidden passage opens onto a loot cache — gold and a chance at an uncommon or rare item. On failure, the wall remains a wall.
+Must be used before `!opendoor`. On success, the passage is found and `!opendoor` becomes available. On failure, the wall remains a wall.
+
+### `!opendoor`
+
+Open a hidden passage found by `!searchdoor`.
+
+**Eligible classes:** Rogue, Arcane Trickster, Ranger
+
+Requires `!searchdoor` to have succeeded first. On success, the passage opens onto a loot cache — gold and a chance at an uncommon or rare item. On failure is not possible — if `!searchdoor` succeeded, the door opens.
 
 ## Success Chances by Class
 
 | Command | Rogue | Arcane Trickster | Artificer | Ranger | Other |
 | --- | --- | --- | --- | --- | --- |
 | `!picklock` | 80% | 70% | 65% | — | 20% |
-| `!disabletrap` | 80% | 65% | — | 60% | 15% |
 | `!findtraps` | 90% | 75% | 70% | — | 20% |
+| `!disabletrap` | 80% | 65% | — | 60% | 15% |
 | `!searchdoor` | 85% | 70% | — | 65% | 20% |
+| `!opendoor` | — | — | — | — | — |
 
 ## Explore Events
 
-These events appear randomly during `!explore` alongside the existing trap and chest system. They are rarer than standard treasure finds — keep an eye on chat when you explore.
-
-| Event | Triggered By | Commands |
+| Event | Triggered By | Required Sequence |
 | --- | --- | --- |
 | Locked chest | `!explore` roll | `!picklock` |
-| Trapped chest | `!explore` roll | `!findtraps`, `!disabletrap` |
-| Hidden door | `!explore` roll | `!searchdoor` |
-| Trapped corridor | `!explore` roll | `!findtraps`, `!disabletrap` |
+| Trapped chest | `!explore` roll | `!findtraps` → `!disabletrap` |
+| Hidden door | `!explore` roll | `!searchdoor` → `!opendoor` |
+| Trapped corridor | `!explore` roll | `!findtraps` → `!disabletrap` |
 
 ::: tip
- ℹ️`!findtraps` and `!disabletrap` can both be used on the same event. Finding the trap first does not consume it — you can then disarm it with full knowledge of what you're dealing with.
+ℹ️ You cannot skip steps. `!disabletrap` requires `!findtraps` to succeed first, and `!opendoor` requires `!searchdoor` to succeed first.
 :::
 
 ::: warning

@@ -64,6 +64,7 @@ export default defineConfig({
           { text: 'Party & Raids', link: '/social/party' },
           { text: 'Leaderboards', link: '/social/leaderboards' },
           { text: 'The Graveyard', link: '/social/graveyard' },
+          { text: 'Whois', link: '/social/whois' },
         ]
       },
       {
@@ -97,6 +98,8 @@ export default defineConfig({
         text: 'NPCs',
         items: [
           { text: 'Brother Yvannis', link: '/npcs/yvannis' },
+          { text: 'Zulkir Jax', link: '/npcs/zulkirjax-menace' },
+          { text: 'Steve French', link: '/npcs/stevefrench' },
         ]
       },
       {

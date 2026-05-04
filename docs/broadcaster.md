@@ -49,6 +49,8 @@ All commands on this page are restricted to the broadcaster (Zulkir Jax) only. T
 | `!start giveaway [name]` | Open giveaway entries |
 | `!draw` | Pick a winner and whisper them the prize code |
 | `!stop giveaway` | Close the giveaway and resume all game commands |
+| `!addentry [username]` | Manually add a viewer to the active giveaway. Use when a player misses the entry window by a few seconds. |
+| `!endauction` | Close the active auction and award the item to the highest bidder. If no bids, item is returned to the seller. |
 
 ::: warning
 ⚠️ `!deckofmany` and `!tarokka` can result in permanent character death via The Void and Donjon cards. Use with intent.
