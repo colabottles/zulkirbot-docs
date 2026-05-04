@@ -1,20 +1,22 @@
 # Combat
 
-## !fight
-
-Encounter a random monster scaled to your level. Use `!battle` as an alternative.
-
 ## !battle
 
-Alias for `!fight`. Starts a combat encounter.
+Start a combat encounter against a random monster scaled to your level.
 
 ## !attack
 
-Attack during a battle. You can also use `!a` as a shortcut.
+Attack the monster during a battle. You can also use `!a` as a shortcut.
 
 ## !flee
 
 Attempt to escape. The monster gets a parting shot. 🐔
+
+## Combat Flow
+
+1. Type `!battle` to encounter a monster
+2. Type `!attack` to strike the monster each round
+3. Repeat until the monster is defeated or type `!flee` to escape
 
 ## !rest
 
