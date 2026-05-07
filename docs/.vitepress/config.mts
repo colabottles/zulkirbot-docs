@@ -68,6 +68,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Events',
+        items: [
+          { text: 'Boss Invasions', link: '/events/invasion' },
+        ]
+      },
+      {
         text: 'Campaigns',
         items: [
           { text: 'The Gauntlet', link: '/campaigns/gauntlet' },
