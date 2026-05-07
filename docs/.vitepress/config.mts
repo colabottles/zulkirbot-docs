@@ -38,7 +38,6 @@ export default defineConfig({
           { text: 'The Shop', link: '/items/shop' },
           { text: 'The Bank', link: '/items/bank' },
           { text: 'Selling Items', link: '/items/selling' },
-          { text: 'Flavor Commands', link: '/items/flavor' },
         ]
       },
       {
@@ -47,6 +46,7 @@ export default defineConfig({
           { text: 'Tavern', link: '/tavern/tavern' },
           { text: 'Tavern Brawl', link: '/tavern/brawl' },
           { text: 'Hirelings', link: '/tavern/hirelings' },
+          { text: 'Flavor Commands', link: '/tavern/flavor' },
         ]
       },
       {
