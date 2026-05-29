@@ -18,6 +18,20 @@ Each caster has a pool of spell points that refills on `!rest` or `!shrine`. Cas
 
 You can hold up to 6 spells in your spellbook. One slot unlocks every 2 character levels, so your first slot opens at level 1 and your sixth at level 11.
 
+| Character Level | Spell Slots |
+| --- | --- |
+| 1 | 1 |
+| 2 | 1 |
+| 3 | 2 |
+| 4 | 2 |
+| 5 | 3 |
+| 6 | 3 |
+| 7 | 4 |
+| 8 | 4 |
+| 9 | 5 |
+| 10 | 5 |
+| 11+ | 6 |
+
 ## Minimum Level to Learn Spells
 
 | Spell Level | Minimum Character Level |
@@ -58,7 +72,9 @@ Divine casters only (Cleric, Paladin, Favored Soul, Dark Apostate). Same as `!le
 
 ### `!scribescroll [spellname]`
 
-Learn a spell from a scroll in your inventory. The scroll is consumed. You must be able to cast that spell class and meet the level requirement.
+Learn a spell from a scroll in your inventory. The scroll is consumed, even if you already know the spell. A message will appear, *"The scroll is still consumed."*
+
+You must be able to cast that spell class and meet the level requirement.
 
 ## Armor & Spell Failure
 

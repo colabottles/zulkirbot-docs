@@ -2,7 +2,7 @@
 
 ## !battle
 
-Start a combat encounter against a random monster scaled to your level.
+Start a combat encounter (`!battle` - Shortcut key: `!b`) against a random monster scaled to your level.
 
 ## !attack
 
@@ -10,7 +10,7 @@ Attack the monster during a battle. You can also use `!a` as a shortcut.
 
 ## !flee
 
-Attempt to escape. The monster gets a parting shot. 🐔
+Attempt to escape. The monster gets a parting shot. 🐔 Shortcut keys: `!f` and `!esc`.
 
 ## Combat Flow
 
@@ -20,7 +20,7 @@ Attempt to escape. The monster gets a parting shot. 🐔
 
 ## !rest
 
-Recover to full HP. Watch out — there's a chance a wandering monster finds you while you rest.
+Recover to full HP. Watch out — there's a chance a wandering monster finds you while you rest. Shortcut key: `!r`.
 
 ## !explore
 
@@ -39,7 +39,7 @@ Search the dungeon for gold, loot, traps, shrines, and hidden secrets. Possible 
 
 ## !shrine
 
-Found via `!explore`. Has a 15% chance to remove a cursed item. Also recharges spell points, restores 1 hireling HP, and resets `!turnundead` cooldown.
+Found via `!explore`. Has a 15% chance to remove a cursed item. Also recharges spell points, hireling HP restore, and !turnundead reset only trigger when the curse removal fails, not when it succeeds. On success, only the curse is lifted.
 
 ## !status stats
 

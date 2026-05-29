@@ -34,4 +34,4 @@ Reached Level 40? You can transcend mortal limits and prestige.
 | 5 | [Epic V] |
 
 > [!TIP]
-> The maximum prestige rank is **Epic V**. Reaching it makes you a legend.
+> The maximum prestige rank is **Epic V**. Attempting to prestige beyond Epic V is not possible — the bot will tell you that you've already reached the maximum rank. Reaching it makes you a legend.

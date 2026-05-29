@@ -7,7 +7,7 @@ Boss invasions are channel-wide events triggered by the broadcaster. When a lege
 1. The broadcaster triggers an invasion with `!invasion [boss_id]`
 2. A **2-minute join window** opens — type `!joinevent` to enlist
 3. Once the window closes, the battle begins
-4. Type `!joinevent` to attack the boss during the fight
+4. Boss HP is posted to chat every 2 minutes automatically.
 5. The boss must be killed within **10 minutes** or the realm falls
 
 ## Commands
@@ -15,7 +15,7 @@ Boss invasions are channel-wide events triggered by the broadcaster. When a lege
 | Command | Who | Description |
 | --- | --- | --- |
 | `!invasion [boss_id]` | Broadcaster | Starts the invasion |
-| `!invasion status` | Anyone | Shows current boss HP, participant count, and time remaining |
+| `!invasion status` or `!invasion info` | Anyone | Shows current boss HP, participant count, and time remaining |
 | `!invasion cancel` | Broadcaster | Cancels the active invasion |
 | `!joinevent` | Anyone | Enlists during join window; attacks during fight phase |
 

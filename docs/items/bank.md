@@ -1,6 +1,6 @@
 # The Bank
 
-Store up to **50 items** in your personal vault. Your bank is wiped on permadeath.
+Store up to **50 items** in your personal vault. Your bank is wiped on permadeath. Shortcut Key: `!bk`.
 
 | Command | Description |
 | --- | --- |

@@ -4,10 +4,16 @@
 
 Browse the item shop. Stock rotates every hour automatically. A warning fires in chat 3 minutes before the stock changes.
 
+| Command | Description |
+| --- | --- |
+| `!shop` | Browse current shop stock with item names, rarities, and prices. |
+| `!shop buy [item]` | Purchase an item from the shop by name. Partial names work — `!shop buy sword` will find the first matching item. |
+
 Buy items with gold earned from combat, exploration, and daily rewards.
 
 > [!NOTE]
-> `!shop` only shows bot-stocked items. To browse items listed by other players, use `!listings`.
+> The shop only carries common and uncommon items. Rare and legendary items can only be found through combat, exploration, or the player marketplace.`!shop` only shows bot-stocked items. To browse items listed by other players, use `!listings`.
+> Shop items are priced at the time of rotation. Common items range from 20–65gp and uncommon items from 60–105gp. Prices vary slightly each rotation.
 
 ## Player Marketplace
 

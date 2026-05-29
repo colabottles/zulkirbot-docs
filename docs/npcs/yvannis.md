@@ -10,19 +10,21 @@ When he arrives, all living participants have 90 seconds to interact with him. T
 
 ## Services
 
+Only services relevant to your current condition are shown. You won't see options that don't apply to you.
+
 | # | Service | Cost | Effect |
 | --- | --- | --- | --- |
 | 1 | Cure Disease | 10% of current gold | Removes an active disease |
 | 2 | Cure Blindness | 10% of current gold | Removes blindness |
 | 3 | Cure Paralysis | 15% of current gold | Removes paralysis |
 | 4 | Heal | 20% of current gold | Restores HP to full |
-| 5 | Wish | 40% of current gold | Removes the corruption_stabilized debuff |
+| 5 | Wish | 40% of current gold | Removes the lingering corruption of the Crystal of Rafiel. |
 
 Costs are calculated as a percentage of your current gold balance, rounded down to the nearest gold piece. The minimum cost is always 1 gold.
 
 ## Smart Checks
 
-Yvannis checks your condition before accepting payment. If your HP is already full, he will not charge you for Heal. If you have no active disease, he will not charge you for Cure Disease. If nothing ails you, he will say so and move on.
+Yvannis checks your condition before accepting payment. If nothing ails you, he will say so and move on.
 
 ::: tip
 ℹ️ If you have the corruption_stabilized flag from the Mystara campaign, the Wish service is the only way to remove it. It costs 40% of your current gold — save up before seeking him out.

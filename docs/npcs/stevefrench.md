@@ -16,8 +16,25 @@ When summoned, Steve French:
 
 1. Arrives with flavor text drawn from Bubbles' quotes from Trailer Park Boys
 2. Does something that makes everyone nearby uncomfortable in a friendly way
-3. If NeutralAgent is in a fight, attacks the monster for 20–35 damage
-4. Restores 15 HP to NeutralAgent from the comfort of having a mountain lion companion
+3. If NeutralAgent is in a fight, attacks the monster for 20–34 damage
+4. Every time Steve French is summoned, Steve restores 15 HP to NeutralAgent from the comfort of having a mountain lion companion with him
+
+## !burger
+
+NeutralAgent or the broadcaster only. Feed Steve French a cheeseburger, `!burger`.
+
+When fed, Steve French grants NeutralAgent:
+
+- +2 attack
+- +2 defense
+- +4 damage
+- +20 HP
+
+The buff lasts **10 minutes**. Can only be triggered once every **30 minutes**.
+
+::: tip
+ℹ️ "Steve French knows what he's doin', he's been in tough spots before." — Bubbles
+:::
 
 ## Notes
 

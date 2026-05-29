@@ -13,9 +13,10 @@ After typing `!campaign`, you have **30 seconds** to choose your mode:
 | Command | Description |
 | --- | --- |
 | `!solo` | Run the Gauntlet alone |
-| `!joincamp` | Join an active party forming window |
+| `!party` | Form a party of up to 10 players to take on the campaign |
+| `!joincamp` (shortcut: `!jc`) | Join an active party forming window |
 
-In party mode, a **60-second join window** opens. Any viewer can type `!joincamp` to enter. The campaign begins when the window closes.
+In party mode, a **60-second join window** opens. Any viewer can type `!joincamp` (shortcut: `jc`) to enter. The campaign begins when the window closes.
 
 ## The Five Stages
 
@@ -31,10 +32,9 @@ A **rest shrine** appears before each stage after the first, restoring **20 HP**
 
 ## Rules
 
-- One campaign per channel per day — win or lose, the cooldown is spent.
 - **HP carries over** between stages. The rest shrine is the only source of healing mid-run.
 - **Permadeath applies.** If your HP reaches 0, you are out of the campaign. Survivors press on.
-- A party campaign ends only when all players are dead.
+- A party campaign ends only when all players are dead or have defeated all the enemies and boss.
 
 ## Rewards
 
@@ -42,6 +42,6 @@ A **rest shrine** appears before each stage after the first, restoring **20 HP**
 | --- | --- |
 | XP (scaling per stage) | All participants, for each stage survived |
 | Gold (scaling per stage) | All participants, for each stage survived |
-| Full clear bonus (+250 XP, +100 gold) | Survivors of all 5 stages |
+| Full clear bonus (+500 XP, +250 gold) | Survivors of all 5 stages |
 | Unique title | Survivors of all 5 stages |
 | Minor artifact drop | One random survivor of the boss fight |

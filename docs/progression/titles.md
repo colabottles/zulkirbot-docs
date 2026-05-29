@@ -1,6 +1,8 @@
 # Titles
 
-Titles are earned by slaying monsters. The more you kill, the more you unlock.
+Titles are earned by slaying monsters, completing campaigns, and defeating invasion bosses.
+
+`!title Rat` will find `Rat Catcher` if you've earned it.
 
 | Command | Description |
 | --- | --- |

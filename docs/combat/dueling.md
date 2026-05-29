@@ -12,6 +12,10 @@ Challenge other adventurers to a duel. No permadeath — but losing hurts.
 | `!strike` | Attack during a duel. |
 | `!pvpboard` | Top duelists by wins. |
 
+::: note
+📝 The challenged player has 3 minutes to `!accept` or `!decline`. If they don't respond, the challenge expires.
+:::
+
 ## Rules
 
 - Duels are turn-based. Roll initiative to see who goes first.

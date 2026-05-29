@@ -15,7 +15,7 @@ Each command has a success chance that varies by class. Ineligible classes can s
 ### Trapped Chest or Trapped Corridor
 
 1. `!explore` detects the event and auto-senses something is wrong
-2. `!findtraps` — identify the trap
+2. `!findtraps` — identify the trap (this command must be first before you can disable a trap)
 3. `!disabletrap` — disarm it (only available after `!findtraps` succeeds)
 
 ### Hidden Door or Suspicious Wall
@@ -33,7 +33,7 @@ Each command has a success chance that varies by class. Ineligible classes can s
 
 ### `!picklock`
 
-Attempt to open a locked chest.
+Attempt to open a locked chest.  (Shortcut key: `!pl`)
 
 **Eligible classes:** Rogue, Arcane Trickster, Artificer
 
@@ -41,7 +41,7 @@ On success, the chest opens and yields a rare or better item plus gold. On failu
 
 ### `!findtraps`
 
-Reveal hidden traps before committing to disarming them.
+Reveal hidden traps before committing to disarming them.  (Shortcut key: `!ft`)
 
 **Eligible classes:** Rogue, Arcane Trickster, Artificer
 
@@ -49,7 +49,7 @@ Must be used before `!disabletrap`. On success, the trap is identified and `!dis
 
 ### `!disabletrap`
 
-Disarm a trapped chest or trapped corridor.
+Disarm a trapped chest or trapped corridor.  (Shortcut key: `!dt`)
 
 **Eligible classes:** Rogue, Arcane Trickster, Ranger
 
@@ -57,7 +57,7 @@ Requires `!findtraps` to have succeeded first. On success, the trap is neutraliz
 
 ### `!searchdoor`
 
-Search a suspicious wall or unusual section of stonework for a hidden passage.
+Search a suspicious wall or unusual section of stonework for a hidden passage.  (Shortcut key: `!sd`)
 
 **Eligible classes:** Rogue, Arcane Trickster, Ranger
 
@@ -65,7 +65,7 @@ Must be used before `!opendoor`. On success, the passage is found and `!opendoor
 
 ### `!opendoor`
 
-Open a hidden passage found by `!searchdoor`.
+Open a hidden passage found by `!searchdoor`.  (Shortcut key: `!od`)
 
 **Eligible classes:** Rogue, Arcane Trickster, Ranger
 

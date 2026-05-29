@@ -1,5 +1,12 @@
 # XP Table
 
+## !xptable
+
+View XP requirements around your current level. Shows 5 levels above and below.
+
+`!xptable` — shows your current position
+`!xptable 20` — centers the table around level 20
+
 The maximum level is **40**. XP required to reach each level:
 
 | Level | XP Required |

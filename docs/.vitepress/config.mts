@@ -56,6 +56,7 @@ export default defineConfig({
           { text: 'XP Table', link: '/progression/xp-table' },
           { text: 'Prestige', link: '/progression/prestige' },
           { text: 'Titles', link: '/progression/titles' },
+          { text: 'Kill Count', link: '/progression/kill-count' },
         ]
       },
       {

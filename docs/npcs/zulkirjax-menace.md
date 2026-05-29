@@ -4,7 +4,7 @@ Zulkir Jax is the Lich King of Thay and the final boss of the ultimate named cam
 
 ## How It Works
 
-During any stream session, there is a 1% chance that any command triggers Zulkir Jax's appearance. He does not appear during campaigns.
+During any stream session, there is a 0.2% chance that any command triggers Zulkir Jax's appearance. He does not appear during campaigns.
 
 When he appears he targets the player who triggered his arrival. He taunts them, applies a debuff, and waits. He will not leave until someone attacks him — or until he gets bored.
 
