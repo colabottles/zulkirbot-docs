@@ -18,11 +18,11 @@ Check your current hireling's name, class, and remaining HP.
 
 | Archetype | Classes | Damage Die | Special |
 | --- | --- | --- | --- |
-| Melee | Fighter, Barbarian, Monk, Sacred Fist | d10 | +1 on critical rolls |
-| Finesse | Rogue, Ranger, Arcane Trickster, Dark Hunter | d8 | 15% chance to find bonus gold on kill |
+| Melee | Fighter, Barbarian, Monk, Sacred Fist | d10 | N/A |
+| Finesse | Rogue, Ranger, Arcane Trickster, Dark Hunter | d8 | 15% chance to find bonus gold on kill - hireling keeps half. |
 | Divine | Cleric, Paladin, Favored Soul, Dark Apostate, Acolyte of the Skin | d6 | 20% chance to heal you 1d4 HP after a fight |
-| Arcane | Wizard, Sorcerer, Warlock, Wild Mage, Blightcaster, Dragon Lord, Dragon Disciple | d6 | 10% chance to deal double damage |
-| Support | Bard, Druid, Stormsinger, Artificer, Alchemist | d4 | 15% chance to grant +2 attack bonus next round |
+| Arcane | Wizard, Sorcerer, Warlock, Wild Mage, Blightcaster, Dragon Lord, Dragon Disciple | d6 | N/A |
+| Support | Bard, Druid, Stormsinger, Artificer, Alchemist | d4 | N/A |
 
 ## Combat Behavior
 

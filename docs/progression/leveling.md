@@ -4,7 +4,7 @@ Earn XP by fighting monsters, winning duels, and exploring. The maximum level is
 
 ## Daily & Weekly Rewards
 
-Minimum reward is 1 gp. If you roll a 1, ZulkirBot will taunt you mercilessly.
+Minimum reward is 1 gp. If your weekly reward rolls a 1 XP, ZulkirBot will taunt you mercilessly.
 
 | Command | Reward | Cooldown |
 | --- | --- | --- |

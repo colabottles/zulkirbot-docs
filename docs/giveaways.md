@@ -4,6 +4,12 @@
 
 Enter the active giveaway with the command `!ddo`.
 
+`!addentry` is available for those who miss the drawing by mere milliseconds. Broadcaster discretion.
+
+`!draw` draws a contest winner.
+
+`!stop giveaway` resets the giveaway without drawing a winner should there need to be a reset and also allows the game to be playable again after a drawing.
+
 Subscribers receive **2 entries** automatically. Non-subscribers receive 1. You will be notified in chat if your subscriber bonus is applied.
 
 ::: warning
@@ -19,5 +25,5 @@ Make sure you follow and whisper to ZulkirBot in order to get the code!
 :::
 
 ::: warning
-⚠️ All game commands are paused during an active giveaway and resume automatically when it ends.
+⚠️ All game commands are paused as soon as `!setcode` is run and resumes automatically when it ends.
 :::

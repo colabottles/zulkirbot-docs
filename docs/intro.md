@@ -25,3 +25,7 @@ If you are reading this, you are probably a viewer on [zulkirjax on Twitch](http
 Thank you to those who have suggested ideas, done some quality assurance for me while in chat, and those whom have complimented the work and the game. I appreciate you all, because...
 
 The bot exists because of you, the chat. I hope it shows.
+
+## Special thanks to the following playtesters
+
+fafhyrd, road_rac3r, eyes0t0pe, austrakear, JackDrag0n, Gwakkamolay, crazykerses.
