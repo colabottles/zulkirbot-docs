@@ -7,9 +7,8 @@ Challenge other adventurers to a duel. No permadeath — but losing hurts.
 | Command | Description |
 | --- | --- |
 | `!duel @user` | Challenge another player. Must be within 2 levels. |
-| `!accept` | Accept a duel challenge. |
+| `!accept` | Accept a duel challenge. Duel resolves automatically. |
 | `!decline` | Decline a duel challenge. 🐔 |
-| `!strike` | Attack during a duel. |
 | `!pvpboard` | Top duelists by wins. |
 
 ::: note
@@ -18,7 +17,8 @@ Challenge other adventurers to a duel. No permadeath — but losing hurts.
 
 ## Rules
 
-- Duels are turn-based. Roll initiative to see who goes first.
+- After `!accept`, the duel resolves automatically — no commands needed.
+- Initiative is rolled to determine who strikes first.
 - The winner earns **50 XP**.
 - The loser is left at **0 HP** — use `!rest` to recover.
 - No permanent death in duels.

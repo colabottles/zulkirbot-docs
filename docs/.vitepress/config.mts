@@ -29,6 +29,7 @@ export default defineConfig({
           { text: 'PvP Dueling', link: '/combat/dueling' },
           { text: 'Rogue Skills', link: '/combat/rogue-skills' },
           { text: 'Spells', link: '/combat/spells' },
+          { text: 'Arenas', link: '/combat/arena' },
         ]
       },
       {
