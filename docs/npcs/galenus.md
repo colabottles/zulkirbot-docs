@@ -1,10 +1,10 @@
-# Brother Yvannis
+# Brother Galenus
 
-Brother Yvannis is a traveling cleric who appears during campaigns. He is helpful. He is professional. He maintains that everything is fine. It is not always fine.
+Brother Galenus is a traveling cleric who appears during campaigns. He is helpful. He is professional. He maintains that everything is fine. It is not always fine.
 
 ## When He Appears
 
-Yvannis appears once per campaign at a random stage between 1 and 4, always alongside the rest shrine. He does not appear at Stage 5. He does not appear outside of campaigns.
+Galenus appears once per campaign at a random stage between 1 and 4, always alongside the rest shrine. He does not appear at Stage 5. He does not appear outside of campaigns.
 
 When he arrives, all living participants have 90 seconds to interact with him. Type `!cleric` to open his services menu. Type `!cleric <number>` to choose a service. Each player may interact with him once per appearance.
 
@@ -24,12 +24,12 @@ Costs are calculated as a percentage of your current gold balance, rounded down 
 
 ## Smart Checks
 
-Yvannis checks your condition before accepting payment. If nothing ails you, he will say so and move on.
+Galenus checks your condition before accepting payment. If nothing ails you, he will say so and move on.
 
 ::: tip
 ℹ️ If you have the corruption_stabilized flag from the Mystara campaign, the Wish service is the only way to remove it. It costs 40% of your current gold — save up before seeking him out.
 :::
 
 ::: warning
-⚠️ Yvannis only appears once per campaign at a random stage. If you miss his window, you will not see him again until the next campaign.
+⚠️ Galenus only appears once per campaign at a random stage. If you miss his window, you will not see him again until the next campaign.
 :::

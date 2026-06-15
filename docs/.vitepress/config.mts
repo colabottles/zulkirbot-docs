@@ -105,7 +105,7 @@ export default defineConfig({
       {
         text: 'NPCs',
         items: [
-          { text: 'Brother Yvannis', link: '/npcs/yvannis' },
+          { text: 'Brother Galenus', link: '/npcs/galenus' },
           { text: 'Zulkir Jax', link: '/npcs/zulkirjax-menace' },
           { text: 'Steve French', link: '/npcs/stevefrench' },
         ]

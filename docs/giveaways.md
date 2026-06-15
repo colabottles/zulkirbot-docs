@@ -10,7 +10,7 @@ Enter the active giveaway with the command `!ddo`.
 
 `!stop giveaway` resets the giveaway without drawing a winner should there need to be a reset and also allows the game to be playable again after a drawing.
 
-Subscribers receive **2 entries** automatically. Non-subscribers receive 1. You will be notified in chat if your subscriber bonus is applied.
+Subscribers and members of the guild on *Thrane* called *The Hexmongers* receive **2 entries** automatically. Non-subscribers receive 1. You will be notified in chat if your subscriber/guild member bonus is applied.
 
 ::: warning
 ⚠️ Viewers must follow and whisper @ZulkirBot before the giveaway starts to be eligible for prize delivery. Due to Twitch's anti-spam rules, this is necessary to receive the codes you have won!
