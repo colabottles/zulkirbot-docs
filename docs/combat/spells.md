@@ -8,6 +8,12 @@ Caster classes have access to a full spellbook system. Spells are drawn from off
 
 **Half casters** (spell points = level × 1.5, rounded down): Paladin, Arcane Trickster, Dragon Disciple, Acolyte of the Skin, Dragon Lord
 
+**Ki casters** (spell points = level × 1): Monk — uses ki abilities instead of traditional spells.
+
+**Reaction casters** (spell points = level × 1.5, rounded down): Alchemist — uses DDO-style reaction vials instead of traditional spells.
+
+**Infusion casters** (spell points = level × 1.5, rounded down): Artificer — uses infusions and engineered spell effects.
+
 Non-caster classes cannot use spell commands.
 
 ## Spell Points
@@ -102,6 +108,65 @@ Some spells require concentration to maintain their effect. If you take damage w
 ## Wild Magic Surge
 
 Wild Mages have a 10% chance on every cast to trigger a Wild Magic Surge — a random effect drawn from the official 50-entry surge table. Results range from fireballs centered on yourself to unicorns appearing to heal you to having all your spell points restored. The surge fires after the spell cast, not instead of it.
+
+## Monk Ki Abilities
+
+Monks use ki instead of traditional spells. Ki abilities are learned and cast using the same commands as spells. Notable ki abilities include:
+
+| Ability | Level | Effect |
+| --- | --- | --- |
+| Flurry of Blows | 1 | Rapid strike combo — damage |
+| Ki Strike | 1 | Pure ki energy strike — damage |
+| Wholeness of Body | 2 | Inner ki healing — heal |
+| Step of the Wind | 2 | Preternatural speed — +DEF buff |
+| Stunning Strike | 2 | Precision ki strike — stun debuff |
+| Elemental Strike | 3 | Elemental ki — damage |
+| Touch of Death | 3 | Necrotic ki — high damage |
+| Empty Body | 4 | Partial ethereal form — +DEF buff |
+| Diamond Soul | 5 | Ki perfection — +ATK/DEF buff |
+| Quivering Palm | 5 | Devastating vibration — high damage |
+| Astral Self | 6 | Spectral ki arms — force damage |
+
+## Alchemist Reaction Vials
+
+Alchemists use DDO-style reaction vials instead of traditional spells. Vials are thrown or administered and produce immediate effects. Notable vials include:
+
+| Vial | Level | Effect |
+| --- | --- | --- |
+| Corrosive Bolt | 1 | Acid damage |
+| Fulmination | 1 | Thunder damage |
+| Healing Elixir | 1 | Heal |
+| Psychoactive Poison | 2 | Disorientation debuff |
+| Glaciation | 2 | Cold damage |
+| Transmutation Vial | 2 | +ATK buff |
+| Virulent Poison | 3 | Poison damage |
+| Alchemical Admixture | 3 | Mixed elemental damage |
+| Reconstruction | 3 | Powerful heal |
+| Implosion Vial | 4 | Force damage |
+| Elixir of Fortitude | 4 | +DEF buff |
+| Grand Corrosion | 5 | Massive acid damage |
+| Sovereign Remedy | 5 | Powerful heal |
+
+## Artificer Infusions & Spells
+
+Artificers combine engineered infusions with half-caster spells. Notable spells include:
+
+| Spell | Level | Effect |
+| --- | --- | --- |
+| Arcane Weapon | 1 | +DMG buff |
+| Detect Magic | 1 | Utility |
+| Cure Wounds | 1 | Heal |
+| Faerie Fire | 1 | Advantage debuff |
+| Heat Metal | 2 | Fire damage over turns |
+| Web | 2 | Movement restriction debuff |
+| Elemental Weapon | 3 | +DMG buff |
+| Fireball | 3 | Fire damage |
+| Arcane Eye | 4 | Tactical advantage utility |
+| Freedom of Movement | 4 | +DEF buff |
+| Wall of Fire | 4 | Fire damage |
+| Animate Objects | 5 | Bludgeoning damage |
+| Bigby's Hand | 5 | Force damage |
+| Creation | 5 | Utility |
 
 ## Finding Scrolls
 

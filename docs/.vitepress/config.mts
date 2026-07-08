@@ -33,12 +33,35 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Exploration',
+        items: [
+          { text: 'Explore Events', link: '/exploration/events' },
+          { text: 'Riddles', link: '/exploration/riddles' },
+          { text: 'God Shrines', link: '/exploration/god-shrines' },
+          { text: 'NPC Encounters', link: '/exploration/npc-encounters' },
+          { text: 'Environmental Hazards', link: '/exploration/hazards' },
+        ]
+      },
+      {
         text: 'Items & Economy',
         items: [
           { text: 'Inventory', link: '/items/inventory' },
           { text: 'The Shop', link: '/items/shop' },
           { text: 'The Bank', link: '/items/bank' },
           { text: 'Selling Items', link: '/items/selling' },
+          { text: 'Upgrading & Salvage', link: '/items/upgrading' },
+          { text: 'Refinement Stones & Motes', link: '/items/refinement' },
+        ]
+      },
+      {
+        text: 'Stronghold',
+        items: [
+          { text: 'Overview', link: '/stronghold/overview' },
+          { text: 'Building', link: '/stronghold/building' },
+          { text: 'Rooms', link: '/stronghold/rooms' },
+          { text: 'Gathering Materials', link: '/stronghold/gathering' },
+          { text: 'Visiting & Raiding', link: '/stronghold/visiting-raiding' },
+          { text: 'Spying', link: '/stronghold/spying' },
         ]
       },
       {
