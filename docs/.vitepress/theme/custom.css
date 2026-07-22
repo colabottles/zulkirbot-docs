@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Grenze:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 html {
   font-size: clamp(1rem, 1.2vw, 1.25rem);
@@ -278,4 +279,277 @@ h4 {
 
 .dark .VPNavBarTitle .title {
   color: #f0f0f0;
+}
+
+/* ── Dragon Age parchment theme ─────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+/* Overall page background — dark wood */
+:root {
+  --parchment: #e8d9b0;
+  --parchment-dark: #d4c090;
+  --parchment-border: #b8963e;
+  --wood-dark: #1a1008;
+  --wood-mid: #231508;
+  --wood-light: #2e1d0a;
+  --wood-border: #4a2e10;
+  --ink: #1a0f00;
+  --crimson: #8b1a00;
+  --gold: #c8920a;
+  --gold-light: #e0aa20;
+}
+
+/* Force dark wood background on the whole page */
+.VPApp,
+#app,
+body {
+  background-color: var(--wood-dark) !important;
+}
+
+/* Nav bar — dark wood */
+.VPNav,
+.VPNavBar {
+  background-color: var(--wood-mid) !important;
+  border-bottom: 2px solid var(--wood-border) !important;
+}
+
+.VPNavBar .container {
+  background-color: transparent !important;
+}
+
+/* Nav site title — gold */
+.VPNavBarTitle .title {
+  color: var(--gold-light) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Nav links — parchment color */
+.VPNavBarMenuLink {
+  color: var(--parchment) !important;
+}
+
+.VPNavBarMenuLink:hover {
+  color: var(--gold-light) !important;
+}
+
+/* Sidebar — slightly lighter wood */
+.VPSidebar {
+  background-color: var(--wood-mid) !important;
+  border-right: 2px solid var(--wood-border) !important;
+}
+
+.VPSidebarItem .text {
+  color: var(--parchment-dark) !important;
+  font-family: 'EB Garamond', serif !important;
+  font-size: 1rem !important;
+}
+
+.VPSidebarItem.is-active>.item .text {
+  color: var(--gold-light) !important;
+  font-weight: 600;
+}
+
+.VPSidebarItem .text:hover {
+  color: var(--gold) !important;
+}
+
+/* Sidebar group headings */
+.VPSidebarItem.level-0>.item .text {
+  color: var(--gold) !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Main content area — parchment */
+.VPDoc .container {
+  background-color: transparent;
+}
+
+.VPDoc .content-container {
+  background-color: var(--parchment) !important;
+  border-radius: 4px;
+  border: 2px solid var(--parchment-border);
+  box-shadow:
+    inset 0 0 40px rgba(0, 0, 0, 0.15),
+    0 4px 20px rgba(0, 0, 0, 0.6);
+  padding: 2rem 2.5rem !important;
+}
+
+/* Article text — dark ink on parchment */
+.vp-doc {
+  color: var(--ink) !important;
+  font-family: 'EB Garamond', serif !important;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.vp-doc p,
+.vp-doc li,
+.vp-doc td {
+  color: var(--ink) !important;
+  font-family: 'EB Garamond', serif !important;
+}
+
+/* Headings — Cinzel on parchment */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-family: 'Cinzel', serif !important;
+  color: var(--crimson) !important;
+  border-bottom-color: var(--parchment-border) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.vp-doc h1 {
+  font-size: 1.9rem !important;
+}
+
+.vp-doc h2 {
+  font-size: 1.4rem !important;
+}
+
+.vp-doc h3 {
+  font-size: 1.15rem !important;
+}
+
+/* Links on parchment */
+.vp-doc a {
+  color: var(--crimson) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--parchment-border);
+}
+
+.vp-doc a:hover {
+  color: var(--gold) !important;
+}
+
+/* Tables on parchment */
+.vp-doc table {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid var(--parchment-border) !important;
+  color: var(--ink) !important;
+}
+
+.vp-doc th {
+  background-color: rgba(139, 26, 0, 0.12) !important;
+  color: var(--crimson) !important;
+  font-family: 'Cinzel', serif !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.05em;
+  border-color: var(--parchment-border) !important;
+}
+
+.vp-doc td {
+  border-color: var(--parchment-border) !important;
+}
+
+.vp-doc tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Inline code on parchment */
+.vp-doc :not(pre)>code {
+  color: var(--crimson) !important;
+  background-color: rgba(139, 26, 0, 0.08) !important;
+  border: 1px solid rgba(139, 26, 0, 0.2);
+}
+
+/* Code blocks on parchment */
+.vp-doc div[class*='language-'] {
+  background-color: #2a1a08 !important;
+  border: 1px solid var(--wood-border);
+  border-radius: 4px;
+}
+
+.vp-doc div[class*='language-'] code {
+  color: #e8d9b0 !important;
+}
+
+/* Tip/warning/danger containers */
+.vp-doc .tip {
+  background-color: rgba(200, 146, 10, 0.1) !important;
+  border-color: var(--gold) !important;
+}
+
+.vp-doc .warning {
+  background-color: rgba(139, 26, 0, 0.08) !important;
+  border-color: var(--crimson) !important;
+}
+
+.vp-doc .danger {
+  background-color: rgba(139, 26, 0, 0.15) !important;
+  border-color: var(--crimson) !important;
+}
+
+/* Aside/outline panel */
+.VPDocAside {
+  background-color: transparent !important;
+}
+
+.VPDocAsideOutline a {
+  color: var(--ink) !important;
+  font-family: 'EB Garamond', serif !important;
+}
+
+.VPDocAsideOutline a:hover,
+.VPDocAsideOutline a.active {
+  color: var(--crimson) !important;
+}
+
+/* Footer */
+.VPFooter {
+  background-color: var(--wood-dark) !important;
+  border-top: 2px solid var(--wood-border) !important;
+  color: var(--parchment-dark) !important;
+}
+
+.VPFooter .message {
+  color: var(--parchment-dark) !important;
+  font-family: 'EB Garamond', serif !important;
+}
+
+/* Prev/Next navigation */
+.VPDocFooter {
+  background-color: transparent !important;
+  border-top: 1px solid var(--parchment-border) !important;
+}
+
+.VPDocFooter .pager-link {
+  background-color: rgba(139, 26, 0, 0.06) !important;
+  border: 1px solid var(--parchment-border) !important;
+}
+
+.VPDocFooter .pager-link:hover {
+  border-color: var(--crimson) !important;
+  background-color: rgba(139, 26, 0, 0.12) !important;
+}
+
+.VPDocFooter .pager-link .title {
+  color: var(--crimson) !important;
+  font-family: 'Cinzel', serif !important;
+}
+
+.VPDocFooter .pager-link .desc {
+  color: var(--ink) !important;
+}
+
+/* Scrollbar — dark wood themed */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--wood-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--wood-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
 }
